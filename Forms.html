@@ -9,7 +9,7 @@
 
 <body>
     <fieldset>
-        <form action="#">
+        <form action="./Response.html">
             <label for="name"> UserName:</label>
             <input type="text" name="name" id="name" placeholder="Enter your name" required>
             <br>
@@ -35,10 +35,10 @@
             <br>
 
             <label for="hobb">Hobbies:</label>
-            
+
             <input type="checkbox" name="hobb1" id="hobb1">
             <label for="hobb1">Cricket</label>
-            
+
             <input type="checkbox" name="hobb2" id="hobb2">
             <label for="hobb2">Football</label>
             <br>
@@ -48,16 +48,40 @@
             <input type="date" name="dob" id="dob">
             <br><br>
 
-           <label for="lang">Select programming language:</label>
+            <label for="lang">Select programming language:</label>
             <select name="lang" id="lang">
                 <option value="">Select Language</option>
                 <option value="C">C</option>
-                  <option value="Python">Python</option>
-                    <option value="C++">C++</option>
-                   
+                <option value="Python">Python</option>
+                <option value="C++">C++</option>
+
             </select>
+            <br><br>
+            <!-- <label for="class">class select:</label>
+                    <select name="class" id="class">
+           
+                <option value="">select class</option>
+                        <option value="class1">class1</option>
+                        <option value="class2">class2</option>
+                        <option value="class3">class3</option>
+                    </select> -->
+         <label for="tel">Phone:</label>
+            <input type="tel" name="tel" id="tel" placeholder="Enter your phone number:">
+            <br><br>
+            <label for="add">Address:</label>
+            <textarea name="add" id="add" placeholder="Enter address:"></textarea>
+            <br><br>
 
 
+            <label for="attempt">Attempt:</label>
+            <input type="number" name="attempt" id="attempt">
+            <br><br>
+
+            <label for="res">Upload resume:</label>
+            <input type="file" name="resume" id="resume">
+                    <br><br>
+                    <input type="submit" value="Submit form">
+                    <input type="reset">
 
 
         </form>
