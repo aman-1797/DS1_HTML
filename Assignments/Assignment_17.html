@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment-17</title>
+  </head>
+  <body>
+    <fieldset>
+      <form action="/Response.html">
+        <label for="text"></label>
+        <input type="text" placeholder="Full name" required />
+        <br /><br />
+
+        <label for="email"></label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="you@college.edu"
+          required
+        />
+        <br /><br />
+
+        <label for="phone_number"></label>
+        <input
+          type="tel"
+          name="number"
+          id="number"
+          placeholder="10-digit mobile"
+          minlength="10"
+          maxlength="10"
+          pattern="[0-9]{10}"
+          required
+        />
+        <br /><br />
+
+        <label for="characters"></label>
+        <input
+          type="text"
+          name="text"
+          id="text"
+          placeholder="Min 6 characters"
+          minlength="4"
+          required
+        />
+        <br /><br />
+
+        <label for="age"></label>
+        <input
+          type="number"
+          name="age"
+          id="age"
+          placeholder="Age"
+          max="35"
+          min="1"
+          required
+        />
+        <br /><br />
+
+        <button>Register</button>
+      </form>
+    </fieldset>
+  </body>
+</html>
